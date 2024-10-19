@@ -19,7 +19,7 @@ export default function Header() {
         I create dynamic, responsive web experiences that blend clean code with user-friendly design to bring ideas to life.</p>
 
       <div className='flex justify-evenly w-full'>
-        <a href='web-portfolio/puclic/assets/joeffrey-pilar-cv.pdf' target='_blank' rel='noopener noreferrer'
+        <a href='/web-portfolio/public/assets/joeffrey-pilar-cv.pdf' target='_blank' rel='noopener noreferrer'
            className='border-2 rounded-lg text-xl border-gray-300 py-2 px-5 mt-10
             hover:bg-gray-100 transition-colors duration-300 ease-in hover:bg-opacity-10
               max-md:text-[18px] max-md:mt-6'>
