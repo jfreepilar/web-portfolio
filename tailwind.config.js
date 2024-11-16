@@ -13,6 +13,7 @@ export default {
       colors: {
         deepBlue : '#0E2442',
         tomato: '#ff6347',
+        purple: '#7952B3',
       },
       screens: {
         'max-xl' : { 'max': '1050px' },
