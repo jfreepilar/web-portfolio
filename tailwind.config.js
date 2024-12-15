@@ -14,6 +14,7 @@ export default {
         deepBlue : '#0E2442',
         tomato: '#ff6347',
         purple: '#7952B3',
+        blueViolet: '#8a2be2',
       },
       screens: {
         'max-xl' : { 'max': '1050px' },
