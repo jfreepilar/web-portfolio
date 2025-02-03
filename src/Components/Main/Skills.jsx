@@ -5,6 +5,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa6";
 import { SiJavascript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 
 export default function Skills() {
   const skills = [
@@ -19,6 +20,8 @@ export default function Skills() {
       description: 'An open-source front-end framework used for building responsive and mobile-first websites and web applications. '},
     {icon: <SiJavascript/>, name: 'JavaScript', color: 'text-yellow-400', background: 'bg-black',
       description: 'Utilized to add dynamic behavior to web applications such as manipulating HTML and CSS to respond to user actions.'},
+    {icon: <SiTypescript />, name: 'TypeScript', color: 'text-lightBlue',
+      description: 'Superset of JavaScript that adds static typing, interfaces, and advanced features to improve code quality and maintainability.'},
     {icon: <FaReact/>, name: 'React', color:'text-sky-400',
       description: 'UI library used for building fast, dynamic, and reusable user interfaces using a component-based architecture.'},  
   ];

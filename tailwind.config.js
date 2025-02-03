@@ -12,6 +12,7 @@ export default {
       },
       colors: {
         deepBlue : '#0E2442',
+        lightBlue: '#007ACC',
         tomato: '#ff6347',
         purple: '#7952B3',
         blueViolet: '#8a2be2',
