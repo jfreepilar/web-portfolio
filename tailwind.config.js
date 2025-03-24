@@ -15,7 +15,8 @@ export default {
         lightBlue: '#007ACC',
         tomato: '#ff6347',
         purple: '#7952B3',
-        blueViolet: '#8a2be2',
+        blueViolet: '#8A2BE2',
+        razzmatazz: '#D00C54',
       },
       screens: {
         'max-xl' : { 'max': '1050px' },

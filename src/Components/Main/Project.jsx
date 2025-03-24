@@ -20,10 +20,15 @@ export default function Project() {
      githubPages: 'https://jfreepilar.github.io/react-recipe-app/',
      description: 'Key functionalities include searching for specific recipes, displaying recipes by categories, and toggling the visibility of ingredients and instructions. It was built using React (JSX, React Hooks, React Router, and useReducer)'
     },
-    {name: 'The Vape Lab', borderColor: 'border-blueViolet', image: 'assets/the-vape-lab-screen-shot.png', alt: 'Recipe Web App',
+    {name: 'The Vape Lab', borderColor: 'border-blueViolet', image: 'assets/the-vape-lab-screen-shot.png', alt: 'Vape Shop Web App',
       codeOnGithub: 'https://github.com/jfreepilar/the-vape-lab',
       githubPages: 'https://jfreepilar.github.io/the-vape-lab/',
       description: 'A vape marketing website showcasing the brand’s identity, affiliate partnerships, e-commerce collaborations, success stories, unique process, and a helpful FAQ section for a user-friendly experience.'
+     },
+     {name: 'Swift', borderColor: 'border-razzmatazz', image: 'assets/swift-screen-shot.png', alt: 'Swift Bank Web App',
+      codeOnGithub: 'https://github.com/jfreepilar/swift',
+      githubPages: 'https://jfreepilar.github.io/swift/',
+      description: 'A digital bank website that blends a fresh, youth-focused approach with the trusted services of traditional banking. Showcasing a sleek, modern UI, it highlights financial services, seamless onboarding, and endless opportunities for a user-friendly experience.'
      }
 
   ];
