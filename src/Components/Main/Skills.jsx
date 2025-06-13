@@ -1,4 +1,3 @@
-import React from 'react'
 import { SiHtml5 } from "react-icons/si";
 import { FaCss3 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -6,24 +5,60 @@ import { FaBootstrap } from "react-icons/fa6";
 import { SiJavascript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
+import canvaLogo from "../../../public/assets/canva-logo.png"
+import restAPI from "../../../public/assets/rest-api.png"
+
 
 export default function Skills() {
   const skills = [
-    {icon: <SiHtml5/>, name: 'HTML' , color: 'text-orange-400',
+    {
+      icon: <SiHtml5/>,
+      name: 'HTML', 
+      color: 'text-orange-400',
       description: 'Defines the layout and organization of a web page by using elements such as headings, paragraphs, links, and forms.'
     },
-    {icon: <FaCss3/>, name: 'CSS', color: 'text-blue-400',
-      description: 'Specify the layout, colors, fonts, spacing, and overall visual design of a web application.'},
-    {icon: <RiTailwindCssFill/>, name: 'Tailwind',  color: 'text-teal-400',
+    {
+      icon: <FaCss3/>, 
+      name: 'CSS', 
+      color: 'text-blue-400',
+      description: 'Specify the layout, colors, fonts, spacing, and overall visual design of a web application.'
+    },
+    {
+      icon: <RiTailwindCssFill/>, 
+      name: 'Tailwind',  
+      color: 'text-teal-400',
       description: 'A utility-first CSS framework that simplifies the process of designing responsive and modern web applications.'},
-    {icon: <FaBootstrap />, name: 'Bootstrap', color: 'text-purple',
+    {
+      icon: <FaBootstrap />, 
+      name: 'Bootstrap', 
+      color: 'text-purple',
       description: 'An open-source front-end framework used for building responsive and mobile-first websites and web applications. '},
-    {icon: <SiJavascript/>, name: 'JavaScript', color: 'text-yellow-400', background: 'bg-black',
+    {
+      icon: <SiJavascript/>, 
+      name: 'JavaScript', 
+      color: 'text-yellow-400', 
+      background: 'bg-black',
       description: 'Utilized to add dynamic behavior to web applications such as manipulating HTML and CSS to respond to user actions.'},
-    {icon: <SiTypescript />, name: 'TypeScript', color: 'text-lightBlue',
+    {
+      icon: <SiTypescript />, 
+      name: 'TypeScript', 
+      color: 'text-lightBlue',
       description: 'Superset of JavaScript that adds static typing, interfaces, and advanced features to improve code quality and maintainability.'},
-    {icon: <FaReact/>, name: 'React', color:'text-sky-400',
-      description: 'UI library used for building fast, dynamic, and reusable user interfaces using a component-based architecture.'},  
+    {
+      icon: <FaReact/>, 
+      name: 'React', 
+      color:'text-sky-400',
+      description: 'UI library used for building fast, dynamic, and reusable user interfaces using a component-based architecture.'},
+    {
+      image: restAPI,
+      name: 'REST API',
+      description: 'Web service architecture that allows client-server communication using standard HTTP methods, enabling scalable and platform-independent applications.'
+    },  
+    {
+      image: canvaLogo,
+      name: 'Canva',
+      description: 'Design platform used for creating fast, visually engaging, and reusable graphic assets using a drag-and-drop interface and pre-built templates.'
+    },      
   ];
 
   return (
@@ -33,8 +68,12 @@ export default function Skills() {
 
         <div className='flex flex-wrap justify-between mb-16 w-full max-lg:flex-col max-lg:items-center max-md:gap-5'>
           {skills.map((item, index) => (
-              <div key={index} className='flex flex-col items-center w-[400px] my-3'>
+            <div key={index} className='flex flex-col items-center w-[400px] my-3'>
+              {item.image ? (
+                <img src={item.image} className="w-32 h-32"/>                
+              ) : (
                 <p className={`text-9xl ${item.color}`}>{item.icon}</p>
+              )}
                 <h3 className='text-2xl mt-3 max-md:text-xl'>{item.name}</h3>
                 <div className='w-[270px]'>
                   <p className='text-[16px] text-center font-sourceSans'>{item.description}</p>
