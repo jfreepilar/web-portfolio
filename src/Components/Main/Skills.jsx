@@ -5,11 +5,9 @@ import { FaBootstrap } from "react-icons/fa6";
 import { SiJavascript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
-import canvaLogo from "../../../public/assets/canva-logo.png"
-import restAPI from "../../../public/assets/rest-api.png"
+import canvaLogo from "../../../public/assets/canva-logo.png";
+import restAPI from "../../../public/assets/rest-api.png";
 
-
-export default function Skills() {
   const skills = [
     {
       icon: <SiHtml5/>,
@@ -60,6 +58,9 @@ export default function Skills() {
       description: 'Design platform used for creating fast, visually engaging, and reusable graphic assets using a drag-and-drop interface and pre-built templates.'
     },      
   ];
+
+
+export default function Skills() {
 
   return (
     <div className='mt-5 px-1 pt-40 border-gray-200 flex flex-col items-center text-gray-500' id='skills'>
