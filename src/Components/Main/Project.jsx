@@ -1,37 +1,66 @@
 import React from 'react'
 import { IoLogoGithub } from "react-icons/io5";
 
-export default function Project() {
   const projects = [
-    {name: 'Alertify Ph', borderColor: 'border-deepBlue', image: 'assets/alertify-screen-shot.png', alt: 'News Web App',
-     codeOnGithub: 'https://github.com/jfreepilar/js-api-app/tree/js-api-app',
-     githubPages: 'https://jfreepilar.github.io/js-api-app/',
-     description: 'A web application that fetches and displays the latest news articles from various sources. It was built using HTML, CSS, and JavaScipt (Async/Await).'
-     },
-
-    {name: 'Stomp', borderColor: 'border-orange-400', image: 'assets/stomp-screen-shot.png', alt: 'E-commerce Web App',
-     codeOnGithub: 'https://github.com/jfreepilar/react-ecommerce-app',
-     githubPages: 'https://jfreepilar.github.io/react-ecommerce-app/',
-     description: 'Key functionalities include adding products to the cart and viewing detailed product information. It was built using React (JSX, React Hooks, and React Router'
+    {
+      name: 'Alertify Ph', 
+      borderColor: 'border-deepBlue', 
+      image: 'assets/alertify-screenshot.png', 
+      alt: 'News Web App',
+      codeOnGithub: 'https://github.com/jfreepilar/js-api-app/tree/js-api-app',
+      githubPages: 'https://jfreepilar.github.io/js-api-app/',
+      description: 'A web application that fetches and displays the latest news articles from various sources. It was built using HTML, CSS, and JavaScipt (Async/Await).'
     },
 
-    {name: 'Savory Spoon', borderColor: 'border-tomato', image: 'assets/recipe-screen-shot.png', alt: 'Recipe Web App',
-     codeOnGithub: 'https://github.com/jfreepilar/react-recipe-app',
-     githubPages: 'https://jfreepilar.github.io/react-recipe-app/',
-     description: 'Key functionalities include searching for specific recipes, displaying recipes by categories, and toggling the visibility of ingredients and instructions. It was built using React (JSX, React Hooks, React Router, and useReducer)'
+    {
+      name: 'Stomp', 
+      borderColor: 'border-orange-400', 
+      image: 'assets/stomp-screenshot.png', 
+      alt: 'E-commerce Web App',
+      codeOnGithub: 'https://github.com/jfreepilar/react-ecommerce-app',
+      githubPages: 'https://jfreepilar.github.io/react-ecommerce-app/',
+      description: 'Key functionalities include adding products to the cart and viewing detailed product information. It was built using React (JSX, React Hooks, and React Router'
     },
-    {name: 'The Vape Lab', borderColor: 'border-blueViolet', image: 'assets/the-vape-lab-screen-shot.png', alt: 'Vape Shop Web App',
+
+    {
+      name: 'Savory Spoon', 
+      borderColor: 'border-tomato', 
+      image: 'assets/recipe-screenshot.png', 
+      alt: 'Recipe Web App',
+      codeOnGithub: 'https://github.com/jfreepilar/react-recipe-app',
+      githubPages: 'https://jfreepilar.github.io/react-recipe-app/',
+      description: 'Key functionalities include searching for specific recipes, displaying recipes by categories, and toggling the visibility of ingredients and instructions. It was built using React (JSX, React Hooks, React Router, and useReducer)'
+    },
+    {
+      name: 'The Vape Lab', 
+      borderColor: 'border-blueViolet', 
+      image: 'assets/the-vape-lab-screenshot.png', 
+      alt: 'Vape Shop Web App',
       codeOnGithub: 'https://github.com/jfreepilar/the-vape-lab',
       githubPages: 'https://jfreepilar.github.io/the-vape-lab/',
       description: 'A vape marketing website showcasing the brand’s identity, affiliate partnerships, e-commerce collaborations, success stories, unique process, and a helpful FAQ section for a user-friendly experience.'
      },
-     {name: 'Swift', borderColor: 'border-razzmatazz', image: 'assets/swift-screen-shot.png', alt: 'Swift Bank Web App',
+     {name: 'Swift', 
+      borderColor: 'border-razzmatazz', 
+      image: 'assets/swift-screenshot.png', 
+      alt: 'Swift Bank Web App',
       codeOnGithub: 'https://github.com/jfreepilar/swift',
       githubPages: 'https://jfreepilar.github.io/swift/',
       description: 'A digital bank website that blends a fresh, youth-focused approach with the trusted services of traditional banking. Showcasing a sleek, modern UI, it highlights financial services, seamless onboarding, and endless opportunities for a user-friendly experience.'
+     },
+     {
+      name: 'Marci Metzger Homes', 
+      borderColor: 'border-gray-400', 
+      image: 'assets/marci-metzger-homes-screenshot.png', 
+      alt: 'Marci Metzger Homes Website',
+      codeOnGithub: 'https://github.com/jfreepilar/marci-metzger-homes',
+      githubPages: 'https://jfreepilar.github.io/marci-metzger-homes/',
+      description: 'A real estate website that’s easy to use and built for everyone. With a clean and modern look, it helps users find homes, explore listings, and connect with agents quickly and easily.'
      }
 
   ];
+
+export default function Project() {
 
   return (
     <div className='px-28 pt-40 pb-10 mt-5 mb-20 text-gray-500' id='project'>
