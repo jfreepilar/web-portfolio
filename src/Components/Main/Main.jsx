@@ -1,7 +1,7 @@
 import AboutMe from "./AboutMe";
 import Certificate from "./Certificate";
 import NavBar from "./NavBar";
-import Skills from "./Skills";
+import Skills from "./skills/Skills";
 import Project from "./project/Project";
 
 export default function Main() {
